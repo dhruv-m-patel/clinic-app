@@ -1,0 +1,16 @@
+{
+  "name": "clinic-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "startServer.js",
+  "scripts": {
+    "doctor": "clinic doctor --on-port='autocannon localhost:3000' -- node startServer.js",
+    "test": "autocannon localhost:3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^3.0.1",
+    "clinic": "^1.3.0"
+  }
+}

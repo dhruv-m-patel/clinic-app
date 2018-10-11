@@ -1,0 +1,3 @@
+*.clinic-doctor
+*.clinic-doctor.html
+node_modules/
