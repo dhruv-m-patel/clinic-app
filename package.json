@@ -4,6 +4,7 @@
   "description": "",
   "main": "startServer.js",
   "scripts": {
+    "bubbleprof": "clinic bubbleprof --on-port='autocannon localhost:3000' -- node .",
     "report": "clinic doctor --on-port='autocannon localhost:3000' -- node startServer.js",
     "start:doctor": "clinic doctor -- node startServer.js",
     "test": "autocannon localhost:3000"
@@ -13,6 +14,7 @@
   "dependencies": {
     "@nearform/compute-magic": "^1.0.0",
     "autocannon": "^3.0.1",
+    "bubbleprof": "0.0.1",
     "clinic": "^1.3.0",
     "fastify": "^1.12.1",
     "mongojs": "^2.6.0"

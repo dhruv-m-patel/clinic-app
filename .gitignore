@@ -1,3 +1,5 @@
 *.clinic-doctor
 *.clinic-doctor.html
 node_modules/
+*.clinic-bubbleprof
+*.clinic-bubbleprof.html
