@@ -1,9 +1,20 @@
-Run this commands for workshop:
+# clinic-app
+
+Run this commands to prepare for workshop:
 
 ```
 docker pull mafintosh/npm-in-mongo
 docker run -it -p 27017:27017 -d mafintosh/npm-in-mongo
 ```
 
+### clinic autocannon
 
-Grab code from here: https://gist.github.com/mcollina/0bc3c9e99fc33445785206c4f46a4d7e
+autocannon helps load test application
+
+### clinic doctor
+
+doctor helps visualize the request loads
+
+### clinic bubbleprof
+
+bubbleprof helps visualize issues with IO etc.
